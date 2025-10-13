@@ -9,7 +9,7 @@ do{
 
     std::cout << "enter positive no : ";
     std::cin >> num;
-}while(num < 0);
+}while(num == 0);
 std::cout << "the num is: " << num;
 
 }
