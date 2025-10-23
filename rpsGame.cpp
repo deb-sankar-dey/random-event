@@ -18,7 +18,8 @@ int main(){
     std::cout << "computer's choice: ";
     showchoice(computer);
 
-    choosewinner(player, computer);
+     choosewinner(player, computer);
+
 
 
     return 0;
