@@ -6,7 +6,6 @@ class student{
         int age;
 
     student(std::string name, int age){
-
         this->name = name;
         this->age = age;
     }
@@ -18,8 +17,6 @@ student ankush("Deb sankar Dey", 19);
 
 std::cout << ankush.name << '\n';
 std::cout << ankush.age << '\n';
-
-
 
     return 0;
 }
